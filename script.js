@@ -30,3 +30,7 @@ a.addEventListener("submit", (e) => {
   c.innerHTML = "";
   searchImage();
 });
+d.addEventListener("click", () => {
+  page++;
+  searchImage();
+});
